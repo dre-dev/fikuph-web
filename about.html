@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <meta name="description" content="Web Design Prototype for School of Information System and Technology @UPH">
+
+  <!-- tab browser information -->
+  <title>SISTECH-UPH</title>
+  <link href="assets/img/elements/logo-favicon.png" rel="icon"> <!-- icon = tab browser icon -->
+  <link href="assets/img/elements/logo-favicon.png" rel="apple-touch-icon"> <!-- apple-touch-icon = apple's device browser icon -->
+
+  <!-- animation stylesheet -->
+  <link rel="stylesheet" href="assets/css/animation.css">
+  <link rel="stylesheet" href="assets/vendor/owl-carousel/css/owl.carousel.min.css">
+
+  <!-- bootstrap for navbar -->
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+  <!-- stylesheet link -- mostly the reference before </head> section to prevent error -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+<!-- navigation bar -->
+<nav class="navigationbar navigationbar-expand-lowerground navigationbar-light navigationbar-floating">
+  <div class="container">
+    <a class="navigationbar-brand" href="index.html">
+      <img src="assets/img/elements/logo-black.png" alt="" width="150">
+    </a> <!-- logo above -->
+    <button class="navigationbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navigationbar-toggler-icon"></span>
+    </button> <!-- -->
+
+    <div class="collapse navigationbar-collapse" id="navbarToggler">
+      <ul class="navigationbar-nav ml-lg-5 mt-3 mt-lg-0"> <!-- font-weight harusnya 500, lg-5 ambil dari bootstrap aja -->
+        <li class="nav-item">
+          <a class="navigation-link" href="about.html">Why SISTECH?</a>
+        </li>
+
+        <li class="nav-item dropdown active"> <!-- adding dropdown function (active) -->
+          <a class="navigation-link dropdown-toggle" href="#" id="navbarDropdown"
+             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Programs</a>
+
+
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item active" href="#">Information System</a>
+            <a class="dropdown-item" href="#">Informatics Engineer</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="navigation-link" href="#">Curriculum</a>
+        <li class="nav-item">
+          <a class="navigation-link" href="activities.html">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="navigation-link" href="#">Facilities</a>
+        </li>
+      </ul>
+      <div class="ml-auto my-2 my-lg-0">
+        <button href="contact.html" class="btn btn-dark rounded-pill">Contact Us!</button>
+      </div>
+      <div class="ml-auto my-2 my-lg-0">
+        <button href="contact.html" class="btn btn-dark rounded-pill">Apply Now!</button>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- end navigation bar -->
+
+<main class="bg-light">
+
+  <!-- content starts -->
+<div class="page-hero-section bg-image hero-mini" style="background-image: url(assets/img/elements/background-mini.svg);">
+  <div class="hero-caption">
+    <div class="container fg-white h-100">
+      <div class="row justify-content-center align-items-center text-center h-100">
+        <div class="col-lg-6">
+          <h3 class="mb-4 fw-medium">About Us</h3>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb breadcrumb-dark justify-content-center bg-transparent">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">About</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- content card starts [VISION] -->
+<div class="page-section pt-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-9">
+        <div class="card-page wow fadeInUp">
+          <h5 class="fg-primary"> <b>Our Vision</b></h5>
+          <hr>
+          <p>To be a Christ-centered university founded upon and promoting true knowledge, faith in Christ and godly character aiming to develop God-fearing, competent and professional future leaders through excellent, holistic and transformational education.</p>
+        </div>
+      </div>
+
+  <!-- MISSION -->
+  <div class="page-section pt-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-9">
+          <div class ="card-page wow fadeInUp">
+            <h5 class="fg-primary"> <b>Our Mision</b></h5>
+            <hr> <!-- hr: garis pembatas -->
+            <li class="list-item"> To provide holistic transformational learning rooted in Scripture and a Reformed theological framework </li>
+            <li class="list-item"> To contribute to the advancement of knowledge and culture guidance by a biblical Christian worldview </li>
+            <li class="list-item"> To participate redemptively in the development of individuals and society for the glory of God </li>
+
+          <!-- video -->
+            <div class="text-center py-5">
+              <iframe width="750" height="415" src="https://www.youtube.com/embed/Y919jd4f--k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+        <div class="page-section pt-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <div class="card-page mt-3 wow fadeInUp">
+              <h5 class="fg-primary"><b>Meet Our Lectures</b></h5>
+              <hr>
+
+          <div class="row justify-content-center">
+            <div class="col-lg-3 py-3">
+              <div class="team-item">
+                <div class="team-avatar wow zoomIn">
+                  <img src="assets/img/person/yugopuspito.png" alt="">
+                </div>
+                <h5 class="team-name">Dr. Pujianto Yugopuspito, M.Sc.</h5>
+                <span class="fg-gray fs-small">Dekan Fakultas Ilmu Komputer</span>
+              </div>
+            </div>
+            <div class="col-lg-3 py-3">
+              <div class="team-item wow zoomIn">
+                <div class="team-avatar">
+                  <img src="assets/img/person/irene_lazarusli.png" alt="">
+                </div>
+                <h5 class="team-name">Irene Astuti Lazarusli, S.Kom., M.T.</h5>
+                <span class="fg-gray fs-small">Department Chair of Informatics</span>
+              </div>
+            </div>
+            <div class="col-lg-3 py-3 wow zoomIn">
+              <div class="team-item">
+                <div class="team-avatar">
+                  <img src="assets/img/person/arnold_wibowo.png" alt="">
+                </div>
+                <h5 class="team-name">Arnold Aribowo, S.T., M.T.</h5>
+                <span class="fg-gray fs-small">Department Chair of Information Systems</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+            <div class="page-section pt-5">
+        <div class="card-page mt-3 wow fadeInUp">
+          <h5 class="fg-primary"><b>Partners</b></h5>
+          <hr>
+
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 justify-content-center align-items-center mt-5">
+            <div class="p-3 wow zoomIn">
+              <div class="img-place client-img">
+                <img src="assets/img/partners/amazon-web-services.png" alt="">
+              </div>
+            </div>
+            <div class="p-3 wow zoomIn">
+              <div class="img-place client-img">
+                <img src="assets/img/partners/google-cloud-platform.png" alt="">
+              </div>
+            </div>
+            <div class="p-3 wow zoomIn">
+              <div class="img-place client-img">
+                <img src="assets/img/partners/microsoft.png" alt="">
+              </div>
+            </div>
+            <div class="p-3 wow zoomIn">
+              <div class="img-place client-img">
+                <img src="assets/img/partners/ibm.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+    </div>
+  </div>
+</div>
+
+</main>
+
+  <div class="page-footer-section bg-dark fg-white">
+    <div class="container">
+      <div class="row mb-5 py-3">
+        <div class="col-sm-6 col-lg-2 py-3">
+          <h5 class="mb-3">SISTECH</h5>
+          <ul class="menu-link">
+            <li><a href="#" class="">Informatics</a></li>
+            <li><a href="#" class="">Information System</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-lg-2 py-3">
+          <h5 class="mb-3">Information</h5>
+          <ul class="menu-link">
+            <li><a href="about.html" class="">About</a></li>
+            <li><a href="#" class="">Activities</a></li>
+            <li><a href="#" class="">Events</a></li>
+            <li><a href="#" class="">Careers</a></li>
+            <li><a href="#" class="">HIRING!</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-4 py-3">
+          <h5 class="mb-3">Contact</h5>
+          <ul class="menu-link">
+            <li><a href="#" class="">Contact Us</a></li>
+            <li><a href="#" class="">Apply Now</a></li>
+            <li><a href="#" class="">info@uph.edu</a></li>
+            <li><a href="#" class="">hello.liem@gmail.com</a></li>
+            <li><a href="#" class="">epmichelle15@gmail.com</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-4 py-3">
+          <h5 class="mb-3">Subscribe</h5>
+          <p>Get some offers, news, or events of SISTECH</p>
+          <form method="POST">
+            <div class="input-group">
+              <label>
+                <input type="text" class="form-control" placeholder="Your email..">
+              </label>
+              <div class="input-group-append">
+                <button type="submit" class="btn btn-primary"><span class="mai-send"></span></button>
+              </div>
+            </div>
+          </form>
+
+          <!-- Social Media Button -->
+          <div class="mt-4">
+            <a href="#" class="btn btn-fab btn-primary fg-white"><span class="mai-logo-facebook"></span></a>
+            <a href="#" class="btn btn-fab btn-primary fg-white"><span class="mai-logo-twitter"></span></a>
+            <a href="#" class="btn btn-fab btn-primary fg-white"><span class="mai-logo-instagram"></span></a>
+            <a href="#" class="btn btn-fab btn-primary fg-white"><span class="mai-logo-google"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 py-2">
+          <img src="assets/img/elements/logo-favicon.png" alt="" width="40">
+          <p class="d-inline-block ml-2">Copyright &copy; <a href="https://www.uph.edu/" class="fg-white fw-medium">Pelita Harapan University</a>. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="assets/vendor/wow/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
+
+
+
